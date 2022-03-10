@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif; 
+}
+a {
+    text-decoration: none;
+    color: var(--white);
+} 
+ p {
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    left: 520px;
+    right: 20px;
+    font-size: var(--lg);
+} 
+footer {
+    background-color: #519259;
+    height: 150px;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+:root {
+    --sm: 12px;
+    --md: 18px;
+    --lg: 22px;
+    --dark-green: #519259;
+    --blue: #0E3EDA;
+    --white: white;
+}
+.header {
+    background-color: var(--dark-green);
+    position: relative;
+    padding: 20px;
+
+}
+.navigation-bar {
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 40px;
+    right: 30px;
+}
+.logo {
+    display: inline-block;
+    width: 300px;
+}
+.nav {
+    list-style: none;
+
+}
+.nav li  {
+    display: inline-block;
+    font-size: var(--lg);
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.main {
+    position: relative;
+}
+.main-container {
+    background-color: var(--blue);
+    display: inline-block;
+    width: 26% ;
+    position: relative;
+    padding: 20px;
+}
+.escuela-box {
+    display: inline-block;
+    background-color: var(--white);
+    width: 90%;
+    height: 160px;
+    padding: 60px 20px 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.about-us {
+    font-size: var(--lg);
+
+}
