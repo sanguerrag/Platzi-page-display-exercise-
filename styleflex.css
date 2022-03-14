@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif; 
+}
+a {
+    text-decoration: none;
+    color: var(--white);
+} 
+ p {
+   
+} 
+footer {
+    background-color: #519259;
+    height: 150px;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+:root {
+    --sm: 12px;
+    --md: 18px;
+    --lg: 22px;
+    --dark-green: #519259;
+    --blue: #0E3EDA;
+    --white: white;
+}
+.header {
+    background-color: var(--dark-green);
+    position: relative;
+    padding: 20px;
+
+}
+.navigation-bar {
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 40px;
+    right: 30px;
+}
+.logo {
+    display: inline-block;
+    width: 300px;
+}
+.nav {
+    list-style: none;
+
+}
+.nav li  {
+    display: inline-block;
+    font-size: var(--lg);
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.main {
+    display: flex;
+}
+.main-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--blue);
+    width: 25vw;
+    flex-direction: column;
+    padding: 20px;
+}
+.escuela-box {
+    text-align: center;
+    background-color: var(--white);
+    width: 90%;
+    height: 160px;
+    padding: 60px 20px 20px; 
+    border-radius: 10px;
+    
+}
+.paragraph {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 75vw;
+    font-size: var(--lg);
+    display: flex;
+    flex-direction: column;
+
+}
+.about-us {
+    font-size: var(--lg);
+
+}
