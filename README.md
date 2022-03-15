@@ -1,1 +1,1 @@
-# Platzi-page-display-project
+# Platzi-page-display-projects
